@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, Chat, CallbackQuery
 from helpers.decorators import authorized_users_only
 from config import BOT_NAME, BOT_USERNAME, OWNER_NAME, UPDATES_CHANNEL, SUPPORT_GROUP, ASSISTANT_NAME
-from handlers.play import cb_admin_check
+from modules.play import cb_admin_check
 
 
 @Client.on_callback_query(filters.regex("cbstart"))
