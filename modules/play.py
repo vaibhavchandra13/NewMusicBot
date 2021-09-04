@@ -16,6 +16,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
+#addyxd
+from config import BOT_USERNAME
 from config import ARQ_API_KEY
 from config import BOT_NAME as bn
 from config import DURATION_LIMIT
@@ -1234,4 +1236,4 @@ async def lol_cb(b, cb):
         
         os.remove("final.png")
 
-# Have u read all. If read RESPECT :-)
+# Have u read all. If read RESPECT plz
