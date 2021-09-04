@@ -17,4 +17,6 @@ future
 psutil
 wget
 regex
-
+dnspython
+bs4
+motor
